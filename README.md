@@ -15,6 +15,7 @@
 #6.Run npm start.
 
 #7 Pages Details.
+
                1) Landing pages used for showing all user which are added by User itself. 
                
                2)User Details pages used for showing the Details of user by Clicking Details button. 
