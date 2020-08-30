@@ -8,7 +8,7 @@
 
 #4.Run npm install.
 
-#5.In this project i am using Mongoose(NoSql Databases) online Atlas. So make sure you connected to your databases.
+#5.In this project i am using Mongoose(NoSql Databases) online Atlas. So make sure you connected to your databases. Paste your Link in Connect Field . Please see the comment.
 
 #5.Install all Dependencies if required.
 
