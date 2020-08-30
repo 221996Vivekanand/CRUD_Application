@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use((req, res, next) => {
-  User.findById('5f4b626ef748e439444cf518')
+  User.findById('5f4b626ef748e439444cf518')// Used Here own UserId from Databases and paste it here.
     .then(user => {
       req.user = user;
       next();
@@ -32,9 +32,11 @@ app.use(shopRoutes);
 
 app.use(errorController.get404);
 
+
 mongoose
   .connect(
-    'mongodb+srv://Vivekanand:Vnp221996@cluster0.voiil.mongodb.net/testDb?retryWrites=true&w=majority'
+    'mongodb+srv://<UserName>:<Passward>cluster0.voiil.mongodb.net/testDb?retryWrites=true&w=majority' 
+  //Please Paste the Your link In below.
   )
   .then(result => {
     User.findOne().then(user => {
