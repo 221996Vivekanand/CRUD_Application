@@ -26,6 +26,4 @@
                
 #8 In this application I am performing all the CRUD functionality like Create User, Read User Details, Update User, Delete Perticular User.
 
-#9 For Demo purpose Click the below link. 
-        
-        https://crud-application-ass.herokuapp.com/
+#9 Here you can go live URL: https://crud-application-ass.herokuapp.com/
